@@ -9,3 +9,9 @@ t=2023-03-18T12:47:12+0000 lvl=info msg="started tunnel" obj=tunnels name=comman
 t=2023-03-18T12:47:49+0000 lvl=info msg="join connections" obj=join id=51a85b110db7 l=127.0.0.1:8080 r=85.91.201.155:52580
 t=2023-03-18T12:47:50+0000 lvl=info msg="join connections" obj=join id=98b4374deea7 l=127.0.0.1:8080 r=85.91.201.155:52580
 t=2023-03-18T12:54:42+0000 lvl=info msg="join connections" obj=join id=1ae0e9dff141 l=127.0.0.1:8080 r=140.82.115.120:25951
+t=2023-03-18T13:00:37+0000 lvl=info msg="join connections" obj=join id=2a092f77bc4f l=127.0.0.1:8080 r=140.82.115.116:24577
+t=2023-03-18T13:03:37+0000 lvl=eror msg="heartbeat timeout, terminating session" obj=csess id=bf6c06208f5d clientid=9fb91179f130baa2411fe34ae09732ae
+t=2023-03-18T13:03:37+0000 lvl=eror msg="session closed, starting reconnect loop" obj=csess id=cc46683924c4 err="session closed"
+t=2023-03-18T13:03:47+0000 lvl=eror msg="failed to reconnect session" obj=csess id=cc46683924c4 err="dial tcp: lookup tunnel.ngrok.com: i/o timeout"
+t=2023-03-18T13:03:52+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-03-18T13:03:52+0000 lvl=info msg="client session established" obj=csess id=cc46683924c4
