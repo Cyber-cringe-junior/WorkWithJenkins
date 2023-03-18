@@ -1,0 +1,11 @@
+t=2023-03-18T12:47:09+0000 lvl=info msg="no configuration paths supplied"
+t=2023-03-18T12:47:09+0000 lvl=info msg="using configuration at default config path" path=/home/artboss/.config/ngrok/ngrok.yml
+t=2023-03-18T12:47:09+0000 lvl=info msg="open config file" path=/home/artboss/.config/ngrok/ngrok.yml err=nil
+t=2023-03-18T12:47:09+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2023-03-18T12:47:11+0000 lvl=info msg="update available" obj=updater
+t=2023-03-18T12:47:12+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-03-18T12:47:12+0000 lvl=info msg="client session established" obj=csess id=cc46683924c4
+t=2023-03-18T12:47:12+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://974b-85-91-201-155.eu.ngrok.io
+t=2023-03-18T12:47:49+0000 lvl=info msg="join connections" obj=join id=51a85b110db7 l=127.0.0.1:8080 r=85.91.201.155:52580
+t=2023-03-18T12:47:50+0000 lvl=info msg="join connections" obj=join id=98b4374deea7 l=127.0.0.1:8080 r=85.91.201.155:52580
+t=2023-03-18T12:54:42+0000 lvl=info msg="join connections" obj=join id=1ae0e9dff141 l=127.0.0.1:8080 r=140.82.115.120:25951
